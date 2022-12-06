@@ -112,11 +112,6 @@
 # each stack?
 
 
-
-def inputfile(file):
-    return open(file).read().rstrip()
-
-
 def create_stacks(stacks_drawing):
     # TRANSFORMS THE DRAWING INTO SOMETHING YOU CAN USE
     stacks_drawing = stacks_drawing.replace('    ', '_').replace(' ', '').replace('[', '').replace(']', '').split()
