@@ -47,8 +47,6 @@
 #     zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw: first marker after character 26
 #
 # How many characters need to be processed before the first start-of-message marker is detected?
-
-
 def solution(_signal, size_of_marker):
     for i in range(len(_signal)):
         packet = _signal[i:i+size_of_marker]
